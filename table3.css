@@ -1,0 +1,50 @@
+g* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    padding-top: 50px;
+}
+
+
+table{
+
+    width: 70%;
+    margin: auto;
+   
+}
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    height: 60px;
+    text-align: center;
+    border: none;
+    border-top: 1px solid rgb(224, 215, 215);
+}
+
+th {
+    background-color: dodgerblue;
+    color: white;
+}
+
+caption {
+
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: orange;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+
+tr:nth-child(even) {
+
+    background-color: rgb(248, 244, 244);
+}
